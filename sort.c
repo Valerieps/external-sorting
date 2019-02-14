@@ -3,7 +3,7 @@
 //== Valéria Pereira de Souza              ==
 //== TP 1 - Malditos Macacos               == 
 //===========================================
-
+// I ackwnoledge that there is a lot of refactoring that could be done in this code. But I was young back then and... who has the time
 
 #include <stdio.h>
 #include <string.h>
@@ -13,7 +13,7 @@ int a_menor_que_b(char* a, char* b, int len) {
    
     int i=0;
 
-    //Procura a primeira letra diferente. Quando acha, testa e retonra.
+    //Procura a primeira letra diferente. Quando acha, testa e retorna.
     //Se acabar o vetor e não achar nenhuma letra diferente, é pq são iguais e retorna 0
     for (i=0; i<len; i++){
         if(a[i] != b[i]){
